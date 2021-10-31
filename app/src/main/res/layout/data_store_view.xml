@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/dataStoreTV"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:layout_margin="25dp"
+        android:hint="Type here Daddy"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/stringData"
+        android:layout_width="0dp"
+        android:layout_height="30dp"
+        android:layout_margin="20dp"
+        android:textColor="@color/black"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/dataStoreTV" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/numericData"
+        android:layout_width="0dp"
+        android:layout_height="30dp"
+        android:layout_margin="20dp"
+        android:textColor="@color/black"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/stringData" />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/dataStoreBtn"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_margin="50dp"
+        android:text="Save and read"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
