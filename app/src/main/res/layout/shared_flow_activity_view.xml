@@ -15,6 +15,6 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:navGraph="@navigation/state_flow_nav" />
+        app:navGraph="@navigation/shared_flow_nav" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

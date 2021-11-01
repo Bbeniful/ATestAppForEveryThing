@@ -17,6 +17,16 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnShredFlow"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:layout_margin="80dp"
+        android:text="Shared flow"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnStateFlow" />
+
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btnDataStore"
         android:layout_width="0dp"
         android:layout_height="80dp"
@@ -24,6 +34,16 @@
         android:text="data store"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/btnStateFlow" />
+        app:layout_constraintTop_toBottomOf="@id/btnShredFlow" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnWifiProvisioning"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:layout_margin="80dp"
+        android:text="wifi provisioning"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnDataStore" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -7,8 +7,10 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.lifecycleScope
 import com.example.atestappforeverything.databinding.DataViewBinding
+import com.example.atestappforeverything.feature_shared_flow.utils.TestSharedFlowObject
 import com.example.atestappforeverything.feature_state_flow.utils.TestFlowObj
 import kotlinx.coroutines.flow.collectLatest
+import kotlinx.coroutines.launch
 
 class DataSharedFlowFragment : Fragment() {
     private lateinit var binding: DataViewBinding
@@ -19,8 +21,8 @@ class DataSharedFlowFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View {
         binding = DataViewBinding.inflate(inflater, container, false)
-        lifecycleScope.launchWhenStarted {
-            TestFlowObj.testData.collectLatest {
+        lifecycleScope.launch {
+            TestSharedFlowObject.sharedFlow.collectLatest {
                 binding.tv.text = "Name : ${it.name} size: ${it.size} type: ${it.type}"
             }
         }

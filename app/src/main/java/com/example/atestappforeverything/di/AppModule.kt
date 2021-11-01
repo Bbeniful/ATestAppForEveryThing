@@ -18,4 +18,5 @@ object AppModule {
     fun provideSharedPreferences(@ApplicationContext context: Context): MyDataStore {
         return MyDataStore(context = context)
     }
+
 }

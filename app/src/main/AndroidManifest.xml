@@ -2,6 +2,11 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.atestappforeverything">
 
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+
     <application
         android:name=".core.presentation.Application"
         android:allowBackup="true"
@@ -9,7 +14,8 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.ATestAppForEveryThing">
+        android:theme="@style/Theme.ATestAppForEveryThing"
+        android:usesCleartextTraffic="true">
         <activity
             android:name=".core.presentation.MainActivity"
             android:exported="true">
@@ -21,6 +27,8 @@
         </activity>
         <activity android:name=".feature_state_flow.presentation.StateFlowActivity" />
         <activity android:name=".feature_data_store.presentation.ui.DataStoreActivity" />
+        <activity android:name=".feature_shared_flow.presentation.SharedFlowActivity" />
+        <activity android:name=".feature_wifi_provisioning.presentation.ui.provisioning.ProvisioningActivity" />
     </application>
 
 </manifest>

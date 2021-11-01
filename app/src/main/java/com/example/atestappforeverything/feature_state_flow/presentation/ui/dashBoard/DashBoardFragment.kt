@@ -28,7 +28,7 @@ class DashBoardFragment : Fragment() {
 
         Handler(Looper.getMainLooper()).postDelayed({
             TestFlowObj.changeData(
-                name = "Apple",
+                name = "Apple State flow",
                 size = 15,
                 type = arrayListOf(1,2)
             )
@@ -36,7 +36,7 @@ class DashBoardFragment : Fragment() {
 
         Handler(Looper.getMainLooper()).postDelayed({
             TestFlowObj.changeData(
-                name = "Apple 2",
+                name = "Apple State flow 2",
                 size = 15,
                 type = arrayListOf(1,2)
 
@@ -45,7 +45,7 @@ class DashBoardFragment : Fragment() {
 
         Handler(Looper.getMainLooper()).postDelayed({
             TestFlowObj.changeData(
-                name = "Apple",
+                name = "Apple  State flow",
                 size = 20,
                 type = arrayListOf(4,5)
             )

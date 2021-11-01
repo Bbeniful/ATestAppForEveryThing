@@ -11,7 +11,9 @@ import androidx.navigation.findNavController
 import com.example.atestappforeverything.R
 import com.example.atestappforeverything.databinding.ActivityMainBinding
 import com.example.atestappforeverything.feature_data_store.presentation.ui.DataStoreActivity
+import com.example.atestappforeverything.feature_shared_flow.presentation.SharedFlowActivity
 import com.example.atestappforeverything.feature_state_flow.presentation.StateFlowActivity
+import com.example.atestappforeverything.feature_wifi_provisioning.presentation.ui.provisioning.ProvisioningActivity
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.collectLatest
 
@@ -25,11 +27,18 @@ class MainActivity : AppCompatActivity() {
 
         binding.btnStateFlow.setOnClickListener {
             startActivity(Intent(this, StateFlowActivity::class.java))
-            finish()
         }
+
+        binding.btnShredFlow.setOnClickListener {
+            startActivity(Intent(this, SharedFlowActivity::class.java))
+        }
+
         binding.btnDataStore.setOnClickListener {
             startActivity(Intent(this, DataStoreActivity::class.java))
-            finish()
+        }
+
+        binding.btnWifiProvisioning.setOnClickListener {
+            startActivity(Intent(this, ProvisioningActivity::class.java))
         }
 
 

@@ -3,16 +3,16 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/my_nav"
-    app:startDestination="@id/nav_dash_board">
+    app:startDestination="@id/nav_dash_board_shared_flow">
 
     <fragment
-        android:id="@+id/nav_dash_board"
-        android:name="com.example.atestappforeverything.feature_state_flow.presentation.ui.dashBoard.DashBoardFragment"
+        android:id="@+id/nav_dash_board_shared_flow"
+        android:name="com.example.atestappforeverything.feature_shared_flow.presentation.ui.dashBoard.DashBoardSharedFlowFragment"
         tools:layout="@layout/dash_board_view" />
 
     <fragment
-        android:id="@+id/nav_data"
-        android:name="com.example.atestappforeverything.feature_state_flow.presentation.ui.data.DataFragment"
+        android:id="@+id/nav_data_shared_flow"
+        android:name="com.example.atestappforeverything.feature_shared_flow.presentation.ui.data.DataSharedFlowFragment"
         tools:layout="@layout/data_view" />
 
 </navigation>
