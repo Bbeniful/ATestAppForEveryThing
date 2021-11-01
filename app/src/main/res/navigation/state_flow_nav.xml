@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/nav_dash_board">
+
+    <fragment
+        android:id="@+id/nav_dash_board"
+        android:name="com.example.atestappforeverything.feature_state_flow.presentation.ui.dashBoard.DashBoardFragment"
+        tools:layout="@layout/dash_board_view" />
+
+    <fragment
+        android:id="@+id/nav_data"
+        android:name="com.example.atestappforeverything.feature_state_flow.presentation.ui.data.DataFragment"
+        tools:layout="@layout/data_view" />
+
+</navigation>
