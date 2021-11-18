@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/nav_dash_board_shared_flow">
+
+    <fragment
+        android:id="@+id/nav_fragment_one"
+        android:name="com.example.atestappforeverything.feature_image_quality.presentation.ui.fragment_one.PickImageFragment"
+        tools:layout="@layout/pick_image_one" />
+    <fragment
+        android:id="@+id/nav_fragment_two"
+        android:name="com.example.atestappforeverything.feature_image_quality.presentation.ui.fragment_two.ShowImageFragment"
+        tools:layout="@layout/pick_image_two" />
+
+</navigation>

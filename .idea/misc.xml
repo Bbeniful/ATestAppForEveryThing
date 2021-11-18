@@ -4,9 +4,12 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/bbeni/AndroidStudioProjects/ATestAppForEveryThing/app/src/main/res/layout/activity_main.xml" value="0.3307291666666667" />
+        <entry key="..\:/Users/bbeni/AndroidStudioProjects/ATestAppForEveryThing/app/src/main/res/layout/activity_pick_image.xml" value="0.20520833333333333" />
         <entry key="..\:/Users/bbeni/AndroidStudioProjects/ATestAppForEveryThing/app/src/main/res/layout/dash_board_view.xml" value="0.483695652173913" />
         <entry key="..\:/Users/bbeni/AndroidStudioProjects/ATestAppForEveryThing/app/src/main/res/layout/data_store_view.xml" value="0.3307291666666667" />
         <entry key="..\:/Users/bbeni/AndroidStudioProjects/ATestAppForEveryThing/app/src/main/res/layout/data_view.xml" value="0.3307291666666667" />
+        <entry key="..\:/Users/bbeni/AndroidStudioProjects/ATestAppForEveryThing/app/src/main/res/layout/pick_image_one.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/bbeni/AndroidStudioProjects/ATestAppForEveryThing/app/src/main/res/layout/pick_image_two.xml" value="0.20520833333333333" />
         <entry key="..\:/Users/bbeni/AndroidStudioProjects/ATestAppForEveryThing/app/src/main/res/layout/shared_flow_activity_view.xml" value="0.425" />
         <entry key="..\:/Users/bbeni/AndroidStudioProjects/ATestAppForEveryThing/app/src/main/res/layout/state_flow_activity_view.xml" value="0.3307291666666667" />
         <entry key="..\:/Users/bbeni/AndroidStudioProjects/ATestAppForEveryThing/app/src/main/res/layout/wifi_prov_view.xml" value="0.3177083333333333" />

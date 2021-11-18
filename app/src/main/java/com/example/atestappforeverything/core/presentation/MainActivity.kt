@@ -41,7 +41,6 @@ class MainActivity : AppCompatActivity() {
             startActivity(Intent(this, ProvisioningActivity::class.java))
         }
 
-
     }
 
 
