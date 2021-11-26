@@ -11,6 +11,7 @@ import androidx.navigation.findNavController
 import com.example.atestappforeverything.R
 import com.example.atestappforeverything.databinding.ActivityMainBinding
 import com.example.atestappforeverything.feature_data_store.presentation.ui.DataStoreActivity
+import com.example.atestappforeverything.feature_image_quality.presentation.PickImageActivity
 import com.example.atestappforeverything.feature_shared_flow.presentation.SharedFlowActivity
 import com.example.atestappforeverything.feature_state_flow.presentation.StateFlowActivity
 import com.example.atestappforeverything.feature_wifi_provisioning.presentation.ui.provisioning.ProvisioningActivity
@@ -39,6 +40,10 @@ class MainActivity : AppCompatActivity() {
 
         binding.btnWifiProvisioning.setOnClickListener {
             startActivity(Intent(this, ProvisioningActivity::class.java))
+        }
+
+        binding.btnImageProvisioning.setOnClickListener {
+            startActivity(Intent(this, PickImageActivity::class.java))
         }
 
     }

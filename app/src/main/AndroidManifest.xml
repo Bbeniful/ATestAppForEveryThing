@@ -5,8 +5,10 @@
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
     <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
     <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
-    <uses-permission android:name="android.permission.INTERNET"/>
-    <uses-feature android:name="android.hardware.camera"
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
         android:required="true" />
 
     <application
@@ -31,6 +33,7 @@
         <activity android:name=".feature_data_store.presentation.ui.DataStoreActivity" />
         <activity android:name=".feature_shared_flow.presentation.SharedFlowActivity" />
         <activity android:name=".feature_wifi_provisioning.presentation.ui.provisioning.ProvisioningActivity" />
+        <activity android:name=".feature_image_quality.presentation.PickImageActivity" />
     </application>
 
 </manifest>
